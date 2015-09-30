@@ -1,13 +1,25 @@
 var gulp = require('gulp');
-
 var sass = require('gulp-sass');
+var browserSync = require('browser-sync').create();
+
+// Fonction qui synchronise la page en faisant un reload si un fichier html se trouvant dans './src/*.html' est modifier
+gulp.task('serve', ['sass'], function() {
+
+    browserSync.init({
+        server: "./src"
+    });
+
+    gulp.watch('./sass/**/*.scss', ['sass']);
+    gulp.watch("./src/*.html").on('change', browserSync.reload);
+});
 
 // creation d'une nouvelle tache : 'sass' 
 gulp.task('sass', function () {
-	// définition de la tache
-  gulp.src('src/assets/scss/**/*.scss') // définition du répertoire source
+	// convertit un fichier .scss en .css
+  return gulp.src('src/assets/scss/**/*.scss') // définition du répertoire source
     .pipe(sass()) // exécution Sass
-    .pipe(gulp.dest('./src/assets/css'));// écriture dans destination
+    .pipe(gulp.dest('./src/assets/css'))// écriture dans destination
+    .pipe(browserSync.stream());// synchronise les modifications comme browserSync.reload mais ne recharge pas la page (comme de l'ajax)
 });
  
 // creation d'une nouvelle tach : 'sass:watch'
