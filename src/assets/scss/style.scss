@@ -1,3 +1,20 @@
 body{
 	background-color : #D0D0D0;
 }
+
+$linkcolor : rgb(210,238,35);
+.menu{
+	li{
+		background-color : blue;
+		a{
+			color: $linkcolor;
+			&:hover{
+				text-decoration : none;
+			}
+			&.last{
+				color: #fff;
+			}
+		}
+
+	}
+}
