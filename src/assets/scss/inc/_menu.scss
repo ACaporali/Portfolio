@@ -1,0 +1,53 @@
+.menu{
+
+	padding: 0;
+	max-height: 0px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;	
+
+	border-radius: 15px, 15px, 0px, 0px;
+	width: 70%;
+	margin: auto; /* Permet de centrer la div */
+	overflow-y: hidden;
+
+	
+	li{
+		list-style-type: none;
+		background-color: #525252;
+
+		a{
+			display:block;
+			color: #000000;
+			padding : 10px;
+			background-color: #525252;
+
+			i{
+				font-size : 16px;
+			}
+
+		}
+	}
+	&.menu-open{
+		max-height: 500px;
+		-webkit-transition: all 10s ease;
+		-moz-transition: all 10s ease;
+		-ms-transition: all 10s ease;
+		-o-transition: all 10s ease;
+		transition: all 10s ease;
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.menu{
+  		display : table;
+  		width: 70%;
+
+  		li{
+  			display : table-cell;
+  			text-align: center;
+  		}
+  	}
+}

@@ -1,21 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Première page</title>
-		<link rel="stylesheet" type="text/css" href="assets/lib/normalize-css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
-	<body>
-		<h1>Bienvenu sur mon portfolio</h1>
-		<ul id="menu" class="menu">
-		  <li><a href="#" title="item 1">item1</a></li>
-		  <li><a href="#" title="item 2">item2</a></li>
-		  <li><a href="#" title="item 3">item3</a></li>
-		</ul>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title" charset="utf-8">      
+        <link rel="stylesheet" href="assets/fontello/css/fontello.css" media="screen" title="no title" charset="utf-8">
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    </head>
+    <body>   
+        <h1>Portfolio</h1>
 
-	</body>
-	<footer>
-		<p>Session 2015-2016</p>
-	</footer>
+        <a class="toggle-menu" title="menu"><i class="icon-menu"></i></a>
+
+
+    	<ul class="menu"> 
+        	<li><a href="#" title=""><i class="icon-home"></i>Accueil</a></li>
+        	<li><a href="#" title="">Projets</a></li>
+        	<li><a href="#" title="">Competances</a></li>
+
+    	</ul>
+
+
+        <div class="global">    	                         
+            <h2>Bonjour et bienvenue sur mon site.</h2><br>
+
+            <p>Je appele Caporali Alice, étudiante en licence professionnelle SMIN (Services Mobiles et Interface Nomade) à l'IUT 1 de Grenoble. Je prépare une licence professionnelle en un an après une formation BAC +2 (BTS ou DUT). L'objectif de cette licence est de former des professionnels pour les services web mobiles, capables notamment  d'adapter les supports web aux périphériques mobiles.
+
+            Vous trouverez sur ce site la présentation de mon profil.<br><br>
+            
+            Bonne visite.</p>           
+        </div>
+    </body>
+    <footer>
+        <div id="e">
+            <p>Caporali Alice, Session 2015-2016</p>
+        </div>
+
+    </footer>
+    <script src="assets/lib/jquery-1.11.3.js"></script>
+    <script type="text/javascript">
+    	$('.toggle-menu').click(function(){
+    		$('.menu').toggleClass("menu-open");
+    	})
+
+
+    </script>
 </html>

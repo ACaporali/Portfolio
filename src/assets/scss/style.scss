@@ -1,20 +1,60 @@
-body{
-	background-color : #D0D0D0;
+@import "inc/menu";
+
+
+html{
+	height: 100%;
 }
-$linkcolor : rgb(210,238,35);
 
-.menu{
-	li{
-		background-color : blue;
-		a{
-			color: $linkcolor;
-			&:hover{
-				text-decoration : none;
-			}
-			&.last{
-				color: #fff;
-			}
-		}
+body{
+	height: 100%;
+	background-image: -moz-linear-gradient(rgb(52,230,239), rgb(38,171,251));
+	background-attachment:fixed;
+	
+	
+}
 
-	}
+footer{
+	background: #ffffff;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.global {
+	min-height: 100%;
+	background: #F8F5F5;
+	width: 70%;
+	margin: auto; /* Permet de centrer la div */
+	text-align: justify;
+	padding: 10px 30px 10px 30px;
+	border-radius: 0px, 0px, 15px, 15px;
+
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size : 50px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+	body{
+  		
+  	}
+}
+
+@media screen and (max-width: 750px) {
+	body{
+  		
+  	}
+}
+
+@media screen and (max-width: 480px) {
+	body{
+  		
+  	}
 }
