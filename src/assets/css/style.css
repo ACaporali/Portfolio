@@ -6,61 +6,181 @@
   -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
-  border-radius: 15px, 15px, 0px, 0px;
-  width: 70%;
+  border-radius: 15px, 15px, 15px, 15px;
   margin: auto;
   /* Permet de centrer la div */
   overflow-y: hidden; }
   .menu li {
     list-style-type: none;
-    background-color: #525252; }
+    background-color: #282828; }
     .menu li a {
       display: block;
-      color: #000000;
-      padding: 10px;
+      padding: 20px;
       background-color: #525252; }
       .menu li a i {
-        font-size: 16px; }
+        font-size: 20px; }
+    .menu li a:hover {
+      color: #F1F1F1; }
   .menu.menu-open {
     max-height: 500px;
-    -webkit-transition: all 10s ease;
-    -moz-transition: all 10s ease;
-    -ms-transition: all 10s ease;
-    -o-transition: all 10s ease;
-    transition: all 10s ease; }
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    border-radius: 15px, 15px, 15px, 15px; }
 
 @media screen and (min-width: 640px) {
   .menu {
     display: table;
-    width: 70%; }
+    width: 100%; }
     .menu li {
-      display: table-cell;
-      text-align: center; } }
+      display: table-cell; }
+      .menu li a {
+        text-align: center; }
+      .menu li a:hover {
+        color: #F1F1F1; }
+  .icon-menu {
+    display: none; } }
 
+/*CSS des balises*/
 html {
   height: 100%; }
 
 body {
   height: 100%;
-  background-image: -moz-linear-gradient(#34e6ef, #26abfb);
-  background-attachment: fixed; }
+  background-image: url("/images/texture_body.png"); }
 
 footer {
-  background: #ffffff;
-  width: 100%;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px; }
+
+h1 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 50px; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+table {
+  margin: auto; }
+
+td {
   text-align: center; }
 
-.global {
+hr {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+i.icon-up-circled {
+  font-size: 36px; }
+
+/*CSS des classes*/
+.corps {
   min-height: 100%;
   background: #F8F5F5;
   width: 70%;
   margin: auto;
   /* Permet de centrer la div */
   text-align: justify;
-  padding: 10px 30px 10px 30px;
-  border-radius: 0px, 0px, 15px, 15px; }
+  padding: 30px; }
 
-h1 {
-  font-family: 'Lobster', cursive;
+.centre {
+  text-align: center; }
+
+.img-full {
+  width: 100%;
+  height: 300px; }
+
+.img-small {
+  width: 300px;
+  height: 250px; }
+
+.img-small-special {
+  width: 150px;
+  height: 250px; }
+
+.contour {
+  border: 1px solid black;
+  border-radius: 5px; }
+
+.float-right {
+  float: right; }
+
+.background {
+  background-image: #525252; }
+
+.preFooter {
+  background-color: #525252;
+  width: 100%;
   text-align: center;
-  font-size: 50px; }
+  display: table; }
+  .preFooter ul {
+    padding-left: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    /*colle le preFooter et le footer*/ }
+    .preFooter ul li {
+      list-style-type: none;
+      /*pas de puce*/
+      width: 100%; }
+      .preFooter ul li a {
+        display: table-cell;
+        text-align: center;
+        text-align: center;
+        display: block; }
+      .preFooter ul li a:hover {
+        color: #F1F1F1; }
+
+.blanc {
+  color: #ffffff; }
+
+/*Responsive*/
+@media (max-width: 1100px) {
+  .responsive-table-line td:before {
+    content: attr(data-title); }
+  .responsive-table-line table,
+  .responsive-table-line thead,
+  .responsive-table-line tbody,
+  .responsive-table-line th,
+  .responsive-table-line td,
+  .responsive-table-line tr {
+    display: block;
+    border: none; }
+  .responsive-table-line thead tr {
+    display: none; }
+  .responsive-table-line td {
+    position: relative;
+    /*border: 0px solid transparent; */
+    /*padding-left: 50% !important;  */
+    white-space: normal;
+    text-align: center; }
+  /*.responsive-table-line td:before {  
+	 position: absolute; 
+	 top: 0px; 
+	 left: 0px; 
+	 width: 45%;  
+	 padding-right: 15px;  
+	 height:100%; 
+	 white-space: nowrap; 
+	 text-overflow: ellipsis !important; 
+	 overflow:hidden !important; 
+	 text-align:left; 
+	 background-color:#f2f2f2; 
+	 padding:2px; 
+	 }	 */ }
+
+/*table tr.fondAvecCouleur td {
+	background-color:#EBDFDF;
+	margin:0px;
+	}              
+	table tr.vole_on td {
+	background-color:#330000;s
+	color:#FFFFFF;
+	margin:0px;
+	cursor:pointer;
+	}*/

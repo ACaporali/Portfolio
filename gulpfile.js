@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
+var useref = require('gulp-useref');
 
 // Fonction qui synchronise la page en faisant un reload si un fichier html se trouvant dans './src/*.html' est modifier
 gulp.task('serve', ['sass'], function() {
@@ -30,4 +31,14 @@ gulp.task('sass:watch', function () {
 // ici la tache par defaut
 gulp.task('default', function() {
   // place code for your default task here
+});
+
+gulp.task('useref', function () {
+    var assets = useref.assets();
+ 
+    return gulp.src('src/*.html')
+        .pipe(assets)
+        .pipe(assets.restore())
+        .pipe(useref())
+        .pipe(gulp.dest('www'));
 });
