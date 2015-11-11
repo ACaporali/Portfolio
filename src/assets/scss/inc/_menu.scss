@@ -33,6 +33,11 @@
 		a:hover{
 			color: $couleur-hover;
 		}
+
+		a:hover{
+  			color: #F1F1F1;
+
+  			}
 	}
 	&.menu-open{
 		max-height: 500px;
@@ -41,6 +46,11 @@
 		-ms-transition: all 1s ease;
 		-o-transition: all 1s ease;
 		transition: all 1s ease;
+<<<<<<< HEAD
+=======
+
+		border-radius: 15px, 15px, 15px, 15px;
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 	}
 }
 
@@ -56,12 +66,24 @@
   			}
 
   			a:hover{
+<<<<<<< HEAD
 				color: $couleur-hover;
 			}
+=======
+  			color: #F1F1F1;
+
+  			}
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
   		}
   	}
 
   	.icon-menu{
   		display:none;
+<<<<<<< HEAD
   	}
+=======
+
+  	}
+
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 }

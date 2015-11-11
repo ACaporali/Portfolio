@@ -5,7 +5,10 @@
 @import "inc/preFooter";
 @import "inc/footer";
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 /*CSS des balises*/
 html{
 	height: 100%;
@@ -13,29 +16,55 @@ html{
 
 body{
 	height: 100%;
+<<<<<<< HEAD
 	background-image:url("/images/texture_body.png");	
 }
 
+=======
+	background-image:url("/images/texture_body.png");
+	
+	
+}
+
+footer{	
+  	background-color: #0f0f0f;
+  	color: #ffffff;
+  	text-align: center;	
+  	padding : 5px;
+}
+
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 h1{
 	font-family: 'Lobster', cursive;
 	text-align: center;
 	font-size : 50px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 }
 
 a{
 	text-decoration:none; 
+<<<<<<< HEAD
 	color: $couleur-vert;
 
 	:hover{
 	color: $couleur-hover;
 	}
+=======
+	color: #000000;
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 }
 
 table{
 	margin: auto;
+<<<<<<< HEAD
 	th{
 		font-size: 24px;
 	}
+=======
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 }
 
 td{
@@ -45,12 +74,20 @@ td{
 hr{
 	margin-top: 60px;
 	margin-bottom: 60px;
+<<<<<<< HEAD
 }
 
 i.icon-up-circled{
 	font-size : 36px;
 }
 
+=======
+}
+
+i.icon-up-circled{
+	font-size : 36px;
+}
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 
 /*CSS des classes*/
 .corps {
@@ -60,12 +97,22 @@ i.icon-up-circled{
 	margin: auto; /* Permet de centrer la div */
 	text-align: justify;
 	padding: 30px;
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 
 .centre{
 	text-align: center;	
 }
 
+<<<<<<< HEAD
+=======
+.centre{
+	text-align: center;	
+}
+
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 .img-full{
 	width: 100%;
 	height: 300px;
@@ -74,6 +121,27 @@ i.icon-up-circled{
 .img-small{
 	width: 300px;
 	height: 250px;
+<<<<<<< HEAD
+=======
+}
+
+.img-small-special{
+	width: 150px;
+	height: 250px;
+}
+
+.contour{
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.float-right{
+	float: right;
+}
+
+.background{
+	background-image: #525252;
+>>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 }
 
 .img-small-special{
@@ -146,6 +214,113 @@ i.icon-up-circled{
 	
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.preFooter{
+
+	background-color: #525252;
+	width: 100%;
+	text-align: center;	
+  	display: table;
+	ul{
+		padding-left: 0px;
+		padding-bottom: 10px;
+		margin-bottom : 0px; /*colle le preFooter et le footer*/
+
+  		li{  			
+  			list-style-type: none; /*pas de puce*/
+  			width: 100%;
+  			
+  			a{
+  				display : table-cell;
+  				text-align: center;
+  				text-align: center;	
+  				display:block;
+  			}
+
+  			a:hover{
+  			color: #F1F1F1;
+  			/*color: #003F22;*/ //à retravailler
+
+  			}
+  			
+  		}
+  	}
+}
+
+.blanc{
+	color: #ffffff;
+}
+
+
+/*Responsive*/
+@media (max-width: 1100px) { 
+  
+	 .responsive-table-line td:before { content: attr(data-title); } 
+	 .responsive-table-line table,  
+	 .responsive-table-line thead,  
+	 .responsive-table-line tbody,  
+	 .responsive-table-line th,  
+	 .responsive-table-line td,  
+	 .responsive-table-line tr {  
+	 display: block;  
+	 border:none;
+	 } 
+	   
+	 .responsive-table-line thead tr {  
+	 display:none; 
+	 } 
+	  
+	 .responsive-table-line td {  
+	 position: relative; 
+	 /*border: 0px solid transparent; */
+	 /*padding-left: 50% !important;  */
+	 white-space: normal; 
+	 text-align:center;  
+	 } 
+	   
+	 /*.responsive-table-line td:before {  
+	 position: absolute; 
+	 top: 0px; 
+	 left: 0px; 
+	 width: 45%;  
+	 padding-right: 15px;  
+	 height:100%; 
+	 white-space: nowrap; 
+	 text-overflow: ellipsis !important; 
+	 overflow:hidden !important; 
+	 text-align:left; 
+	 background-color:#f2f2f2; 
+	 padding:2px; 
+	 }	 */
+ } 
+
+
+	/*table tr.fondAvecCouleur td {
+	background-color:#EBDFDF;
+	margin:0px;
+	}              
+	table tr.vole_on td {
+	background-color:#330000;s
+	color:#FFFFFF;
+	margin:0px;
+	cursor:pointer;
+	}*/
 
 
 
