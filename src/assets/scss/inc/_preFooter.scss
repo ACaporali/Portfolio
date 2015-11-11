@@ -4,7 +4,7 @@
 
 .preFooter{
   padding-top: 20px;
-	background-color: #525252;
+	background-color: $couleur-preFooter;
 	width: 100%;
 	text-align: center;	
   	display: table;
@@ -20,7 +20,6 @@
   			a{
   				display : table-cell;
   				text-align: center;
-  				text-align: center;	
   				display:block;
           color: #000000;
   			}

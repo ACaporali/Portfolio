@@ -13,7 +13,7 @@ html{
 
 body{
 	height: 100%;
-	background-image:url("/images/texture_body.png");	
+	background-image: $texture-body;	
 }
 
 h1{
@@ -88,10 +88,6 @@ i.icon-up-circled{
 
 .float-right{
 	float: right;
-}
-
-.background{
-	background-image: #525252;
 }
 
 

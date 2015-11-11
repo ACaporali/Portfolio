@@ -11,8 +11,6 @@
 	-ms-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;	
-
-	border-radius: 15px, 15px, 15px, 15px;
 	margin: auto; /* Permet de centrer la div */
 	overflow-y: hidden;
 	
@@ -23,7 +21,7 @@
 		a{
 			display:block;
 			padding : 20px;
-			background-color: #525252;
+			background-color: $couleur-menu;
 
 			i{
 				font-size : 20px;
