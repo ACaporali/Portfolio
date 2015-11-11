@@ -55,7 +55,6 @@
   padding-top: 20px;
   background-color: #525252;
   width: 100%;
-  text-align: center;
   display: table; }
   .preFooter ul {
     padding-left: 0px;
@@ -68,7 +67,6 @@
       width: 100%; }
       .preFooter ul li a {
         display: table-cell;
-        text-align: center;
         display: block;
         color: #000000; }
       .preFooter ul li a:hover {
@@ -112,6 +110,8 @@ table {
   margin: auto; }
   table th {
     font-size: 24px; }
+  table td {
+    text-align: left; }
 
 td {
   text-align: center; }
