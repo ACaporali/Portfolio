@@ -3,40 +3,64 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <!-- build:css css/css-combined.css -->
         <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title" charset="utf-8">      
         <link rel="stylesheet" href="assets/fontello/css/fontello.css" media="screen" title="no title" charset="utf-8">
         <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <!-- endbuild -->
     </head>
     <body>   
-        <h1>Portfolio</h1>
+        <h1><a href="index.html" class="zone-clic-titre">Portfolio</h1>
 
         <a class="toggle-menu" title="menu"><i class="icon-menu"></i></a>
-
-
     	<ul class="menu"> 
-        	<li><a href="#" title=""><i class="icon-home"></i>Accueil</a></li>
-        	<li><a href="#" title="">Projets</a></li>
-        	<li><a href="#" title="">Competances</a></li>
+            <li><a href="index.html" title="Accueil"><i class="icon-home"></i>Accueil</a></li>
+            <li><a href="realisations.html" title="Réalisations"><i class="icon-mouse"></i>Réalisations</a></li>
+            <li><a href="a-propos.html" title="A propos"><i class="icon-user-female"></i>A propos</a></li>
+            <li><a href="contact.html" title="Contact"><i class="icon-mail-alt"></i>Contact</a></li>
 
-    	</ul>
+        </ul>
 
 
-        <div class="global">    	                         
-            <h2>Bonjour et bienvenue sur mon site.</h2><br>
+        <div class="corps">
+            <img class="img-full" src="/images/developpemt-web.png"/>    	                         
+            <h1 class="centre">Caporali Alice</h1> 
+            <p class="centre">Developpeuse web et mobile</p>
+            <p class="centre"><a href="a-propos.html"><i class="icon-right-small"></i>En savoir plus<i class="icon-left-small"></i></p>           
+        </div>
 
-            <p>Je appele Caporali Alice, étudiante en licence professionnelle SMIN (Services Mobiles et Interface Nomade) à l'IUT 1 de Grenoble. Je prépare une licence professionnelle en un an après une formation BAC +2 (BTS ou DUT). L'objectif de cette licence est de former des professionnels pour les services web mobiles, capables notamment  d'adapter les supports web aux périphériques mobiles.
+        <a href="#" title="Aller en haut de page" class="float-right"><i class="icon-up-circled zone-fleche-haut"></i></a>   
 
-            Vous trouverez sur ce site la présentation de mon profil.<br><br>
-            
-            Bonne visite.</p>           
+        <div class="preFooter">
+            <table>
+               <tr class="centre background">
+                   <th>Navigation</th>
+                   <th>Contact</th>
+               </tr>
+
+               <tr>
+                   <td>
+                        <ul> 
+                            <li><a href="index.html" title="Accueil"><i class="icon-home"></i>Accueil</a></li>
+                            <li><a href="realisations.html" title="Réalisations"><i class="icon-mouse"></i>Réalisations</a></li>
+                            <li><a href="a-propos.html" title="A propos"><i class="icon-user-female"></i>A propos</a></li>
+                            <li><a href="contact.html" title="Contact"><i class="icon-mail-alt"></i>Contact</a></li>
+                        </ul>                   
+                    </td>
+                    <td>
+                        <p class="icon-mail-alt">alicecaporali@hotmail.fr</p>
+                    </td>
+               </tr>
+            </table>
         </div>
     </body>
-    <footer>
-        <div id="e">
-            <p>Caporali Alice, Session 2015-2016</p>
-        </div>
-
+    
+    <footer>        
+        <p>Caporali Alice, Session 2015-2016</p>
+        <a href="https://fr.linkedin.com/pub/alice-caporali/74/47a/b61" target='_blank' title="linkedin" class="blanc"><i class="icon-linkedin"></i></a>
+        <a href="https://github.com/alicedu38" target='_blank' title="github" class="blanc"><i class="icon-github"></i></a>
     </footer>
+
     <script src="assets/lib/jquery-1.11.3.js"></script>
     <script type="text/javascript">
     	$('.toggle-menu').click(function(){

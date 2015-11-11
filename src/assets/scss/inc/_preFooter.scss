@@ -1,0 +1,33 @@
+/* Css du preFooter*/
+/*Import*/
+@import "inc/variables";
+
+.preFooter{
+  padding-top: 20px;
+	background-color: #525252;
+	width: 100%;
+	text-align: center;	
+  	display: table;
+	ul{
+		padding-left: 0px;
+		padding-bottom: 10px;
+		margin-bottom : 0px; /*colle le preFooter et le footer*/
+
+  		li{  			
+  			list-style-type: none; /*pas de puce*/
+  			width: 100%;
+  			
+  			a{
+  				display : table-cell;
+  				text-align: center;
+  				text-align: center;	
+  				display:block;
+          color: #000000;
+  			}
+
+  			a:hover{
+          color: $couleur-hover;  
+        } 			
+  		}
+  	}
+}

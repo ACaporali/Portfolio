@@ -1,3 +1,7 @@
+/* Css du menu*/
+/*Import*/
+@import "inc/variables";
+
 .menu{
 
 	padding: 0;
@@ -8,46 +12,56 @@
 	-o-transition: all 1s ease;
 	transition: all 1s ease;	
 
-	border-radius: 15px, 15px, 0px, 0px;
-	width: 70%;
+	border-radius: 15px, 15px, 15px, 15px;
 	margin: auto; /* Permet de centrer la div */
 	overflow-y: hidden;
-
 	
 	li{
 		list-style-type: none;
-		background-color: #525252;
+		background-color: #282828;
 
 		a{
 			display:block;
-			color: #000000;
-			padding : 10px;
+			padding : 20px;
 			background-color: #525252;
 
 			i{
-				font-size : 16px;
+				font-size : 20px;
 			}
+		}
 
+		a:hover{
+			color: $couleur-hover;
 		}
 	}
 	&.menu-open{
 		max-height: 500px;
-		-webkit-transition: all 10s ease;
-		-moz-transition: all 10s ease;
-		-ms-transition: all 10s ease;
-		-o-transition: all 10s ease;
-		transition: all 10s ease;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;
 	}
 }
 
 @media screen and (min-width: 640px) {
 	.menu{
   		display : table;
-  		width: 70%;
+  		width: 100%;
 
   		li{
   			display : table-cell;
-  			text-align: center;
+  			a{
+  				text-align: center;
+  			}
+
+  			a:hover{
+				color: $couleur-hover;
+			}
   		}
+  	}
+
+  	.icon-menu{
+  		display:none;
   	}
 }

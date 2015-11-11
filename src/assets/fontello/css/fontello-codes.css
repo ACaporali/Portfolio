@@ -1,3 +1,11 @@
 
 .icon-home:before { content: '\e800'; } /* '' */
 .icon-menu:before { content: '\e801'; } /* '' */
+.icon-linkedin:before { content: '\e802'; } /* '' */
+.icon-github:before { content: '\e803'; } /* '' */
+.icon-user-female:before { content: '\e804'; } /* '' */
+.icon-mouse:before { content: '\e805'; } /* '' */
+.icon-mail-alt:before { content: '\e806'; } /* '' */
+.icon-up-circled:before { content: '\e807'; } /* '' */
+.icon-right-small:before { content: '\e808'; } /* '' */
+.icon-left-small:before { content: '\e809'; } /* '' */

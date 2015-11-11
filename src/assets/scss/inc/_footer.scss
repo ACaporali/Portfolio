@@ -1,0 +1,19 @@
+/*Css du footer*/
+/*Import*/
+@import "inc/variables";
+
+footer{	
+  	background-color: #0f0f0f;
+  	color: #ffffff;
+  	text-align: center;	
+  	padding : 5px;
+}
+
+.blanc{
+	color: $blanc;
+}
+
+a:hover{
+	color: $couleur-hover;
+
+}
