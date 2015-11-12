@@ -11,8 +11,6 @@
 	-ms-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;	
-
-	border-radius: 15px, 15px, 15px, 15px;
 	margin: auto; /* Permet de centrer la div */
 	overflow-y: hidden;
 	
@@ -23,7 +21,7 @@
 		a{
 			display:block;
 			padding : 20px;
-			background-color: #525252;
+			background-color: $couleur-menu;
 
 			i{
 				font-size : 20px;
@@ -33,11 +31,6 @@
 		a:hover{
 			color: $couleur-hover;
 		}
-
-		a:hover{
-  			color: #F1F1F1;
-
-  			}
 	}
 	&.menu-open{
 		max-height: 500px;
@@ -46,11 +39,6 @@
 		-ms-transition: all 1s ease;
 		-o-transition: all 1s ease;
 		transition: all 1s ease;
-<<<<<<< HEAD
-=======
-
-		border-radius: 15px, 15px, 15px, 15px;
->>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 	}
 }
 
@@ -66,24 +54,12 @@
   			}
 
   			a:hover{
-<<<<<<< HEAD
 				color: $couleur-hover;
 			}
-=======
-  			color: #F1F1F1;
-
-  			}
->>>>>>> 4a63784353f891714e70aae3f40c591026a121db
   		}
   	}
 
   	.icon-menu{
   		display:none;
-<<<<<<< HEAD
   	}
-=======
-
-  	}
-
->>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 }

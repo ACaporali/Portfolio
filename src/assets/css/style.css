@@ -13,7 +13,6 @@
   -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
-  border-radius: 15px, 15px, 15px, 15px;
   margin: auto;
   /* Permet de centrer la div */
   overflow-y: hidden; }
@@ -27,23 +26,14 @@
       .menu li a i {
         font-size: 20px; }
     .menu li a:hover {
-<<<<<<< HEAD
       color: #2E4E1F; }
-=======
-      color: #F1F1F1; }
->>>>>>> 4a63784353f891714e70aae3f40c591026a121db
   .menu.menu-open {
     max-height: 500px;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
-<<<<<<< HEAD
     transition: all 1s ease; }
-=======
-    transition: all 1s ease;
-    border-radius: 15px, 15px, 15px, 15px; }
->>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 
 @media screen and (min-width: 640px) {
   .menu {
@@ -54,7 +44,6 @@
       .menu li a {
         text-align: center; }
       .menu li a:hover {
-<<<<<<< HEAD
         color: #2E4E1F; }
   .icon-menu {
     display: none; } }
@@ -66,7 +55,6 @@
   padding-top: 20px;
   background-color: #525252;
   width: 100%;
-  text-align: center;
   display: table; }
   .preFooter ul {
     padding-left: 0px;
@@ -79,8 +67,6 @@
       width: 100%; }
       .preFooter ul li a {
         display: table-cell;
-        text-align: center;
-        text-align: center;
         display: block;
         color: #000000; }
       .preFooter ul li a:hover {
@@ -100,11 +86,6 @@ footer {
 
 a:hover {
   color: #2E4E1F; }
-=======
-        color: #F1F1F1; }
-  .icon-menu {
-    display: none; } }
->>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 
 /*CSS des balises*/
 html {
@@ -112,17 +93,8 @@ html {
 
 body {
   height: 100%;
-  background-image: url("/images/texture_body.png"); }
+  background-image: url("/images/texture-body.png"); }
 
-<<<<<<< HEAD
-=======
-footer {
-  background-color: #0f0f0f;
-  color: #ffffff;
-  text-align: center;
-  padding: 5px; }
-
->>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 h1 {
   font-family: 'Lobster', cursive;
   text-align: center;
@@ -130,7 +102,6 @@ h1 {
 
 a {
   text-decoration: none;
-<<<<<<< HEAD
   color: #5CA03C; }
   a :hover {
     color: #2E4E1F; }
@@ -139,12 +110,8 @@ table {
   margin: auto; }
   table th {
     font-size: 24px; }
-=======
-  color: #000000; }
-
-table {
-  margin: auto; }
->>>>>>> 4a63784353f891714e70aae3f40c591026a121db
+  table td {
+    text-align: left; }
 
 td {
   text-align: center; }
@@ -188,37 +155,6 @@ i.icon-up-circled {
 .float-right {
   float: right; }
 
-.background {
-  background-image: #525252; }
-
-<<<<<<< HEAD
-=======
-.preFooter {
-  background-color: #525252;
-  width: 100%;
-  text-align: center;
-  display: table; }
-  .preFooter ul {
-    padding-left: 0px;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-    /*colle le preFooter et le footer*/ }
-    .preFooter ul li {
-      list-style-type: none;
-      /*pas de puce*/
-      width: 100%; }
-      .preFooter ul li a {
-        display: table-cell;
-        text-align: center;
-        text-align: center;
-        display: block; }
-      .preFooter ul li a:hover {
-        color: #F1F1F1; }
-
-.blanc {
-  color: #ffffff; }
-
->>>>>>> 4a63784353f891714e70aae3f40c591026a121db
 /*Responsive*/
 @media (max-width: 1100px) {
   .responsive-table-line td:before {
@@ -232,7 +168,6 @@ i.icon-up-circled {
     display: block;
     border: none; }
   .responsive-table-line thead tr {
-<<<<<<< HEAD
     ²display: none; }
   .responsive-table-line td {
     position: relative;
@@ -250,37 +185,3 @@ i.icon-up-circled {
     line-height: 100px; }
   .padding-5px {
     padding: 5px; } }
-=======
-    display: none; }
-  .responsive-table-line td {
-    position: relative;
-    /*border: 0px solid transparent; */
-    /*padding-left: 50% !important;  */
-    white-space: normal;
-    text-align: center; }
-  /*.responsive-table-line td:before {  
-	 position: absolute; 
-	 top: 0px; 
-	 left: 0px; 
-	 width: 45%;  
-	 padding-right: 15px;  
-	 height:100%; 
-	 white-space: nowrap; 
-	 text-overflow: ellipsis !important; 
-	 overflow:hidden !important; 
-	 text-align:left; 
-	 background-color:#f2f2f2; 
-	 padding:2px; 
-	 }	 */ }
-
-/*table tr.fondAvecCouleur td {
-	background-color:#EBDFDF;
-	margin:0px;
-	}              
-	table tr.vole_on td {
-	background-color:#330000;s
-	color:#FFFFFF;
-	margin:0px;
-	cursor:pointer;
-	}*/
->>>>>>> 4a63784353f891714e70aae3f40c591026a121db
