@@ -51,7 +51,18 @@ hr{
 }
 
 i.icon-up-circled{
-	font-size : 36px;
+	font-size : 38px;
+}
+
+form{
+	padding : 20px;
+	label, input{
+		margin : 15px 5px 15px 5px;
+	}
+	#label-message{
+		vertical-align: top;
+	}
+
 }
 
 
@@ -114,9 +125,8 @@ i.icon-up-circled{
 	 } 
 	  
 	 .responsive-table-line td {  
-		 position: relative; 
-		 white-space: normal; 
-		 text-align:center;  
+		position: relative; 
+		white-space: normal; 
 	} 
 } 
 
@@ -125,6 +135,7 @@ i.icon-up-circled{
 	table{
 		li{
 			padding: 5px;
+			font-size : 18px;
 		}
 	}
 
@@ -141,7 +152,6 @@ i.icon-up-circled{
 	.padding-5px{
 		padding: 5px;
 	}
-
 	
 }
 

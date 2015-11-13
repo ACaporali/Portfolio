@@ -121,7 +121,14 @@ hr {
   margin-bottom: 60px; }
 
 i.icon-up-circled {
-  font-size: 36px; }
+  font-size: 38px; }
+
+form {
+  padding: 20px; }
+  form label, form input {
+    margin: 15px 5px 15px 5px; }
+  form #label-message {
+    vertical-align: top; }
 
 /*CSS des classes*/
 .corps {
@@ -171,12 +178,12 @@ i.icon-up-circled {
     ²display: none; }
   .responsive-table-line td {
     position: relative;
-    white-space: normal;
-    text-align: center; } }
+    white-space: normal; } }
 
 @media screen and (max-width: 640px) {
   table li {
-    padding: 5px; }
+    padding: 5px;
+    font-size: 18px; }
   .zone-clic-titre {
     display: block;
     line-height: 100px; }

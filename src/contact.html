@@ -22,11 +22,22 @@
 
 
         <div class="corps">
-            <img class="img-full" src="/images/contact.jpg"/>    	                         
+            <img alt="contact" class="img-full" src="/images/contact.jpg"/>    	                         
             <h1>Me contacter</h1><br/>
 
-            <p>Vous pouvez m'envoyer un mail à l'adresse suivante : alice.caporali@hotmail.fr</p>  
-            <hr>        
+            <p>Vous pouvez m'envoyer un mail à l'adresse suivante : alice.caporali@hotmail.fr</p>
+            <p>Ou remplir le formulaire ci-dessous :</p>
+
+            <form method="post" action="" class="contour centre">
+               <label for="nom">Votre nom :</label><input type="text" name="nom" id="nom" placeholder="Votre nom" />
+               <label for="prenom">Votre prenom :</label><input type="text" name="prenom" id="prenom" placeholder="Votre prenom"/>
+               <br/>
+               <label for="sujet">Votre sujet :</label><input type="text" name="sujet" id="sujet" placeholder="Votre sujet"/>
+               <br/>
+               <label for="message" id="label-message">Votre message :</label><textarea rows="10" cols="50" name="message" id="area-message" placeholder="Votre message"></textarea>
+               <br/>
+               <input type="submit" value="Envoyer" id="bouton-envoyer" />
+            </form>       
         </div>
 
         <a href="#" title="Aller en haut de page" class="float-right"><i class="icon-up-circled"></i></a>
