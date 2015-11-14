@@ -2,6 +2,8 @@
 /*Import*/
 @import "inc/variables";
 
+
+//Comportement du menu pour les pages inferieur à une résolution de 640px
 .menu{
 
 	padding: 0;
@@ -42,6 +44,7 @@
 	}
 }
 
+//Comportement du menu pour les pages superieur à une résolution de 640px
 @media screen and (min-width: 640px) {
 	.menu{
   		display : table;

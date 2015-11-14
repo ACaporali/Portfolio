@@ -10,6 +10,7 @@
         <!-- endbuild -->
     </head>
     <body>   
+        <!-- Menu --> 
         <h1><a href="index.html" class="zone-clic-titre">Portfolio</a></h1>
 
         <a class="toggle-menu" title="menu"><i class="icon-menu"></i></a>
@@ -25,23 +26,25 @@
             <img alt="contact" class="img-full" src="/images/contact.jpg"/>    	                         
             <h1>Me contacter</h1><br/>
 
-            <p>Vous pouvez m'envoyer un mail à l'adresse suivante : alice.caporali@hotmail.fr</p>
-            <p>Ou remplir le formulaire ci-dessous :</p>
+            <p>Vous pouvez m'envoyer un <strong>mail</strong> à l'adresse suivante : <strong>alice.caporali@hotmail.fr</strong></p>
+            <p>Ou <strong>remplir le formulaire</strong> ci-dessous :</p>
 
+            <!-- formulaire de contact qui n'envoi pas de message car pas de php --> 
             <form method="post" action="" class="contour centre">
-               <label for="nom">Votre nom :</label><input type="text" name="nom" id="nom" placeholder="Votre nom" />
-               <label for="prenom">Votre prenom :</label><input type="text" name="prenom" id="prenom" placeholder="Votre prenom"/>
+               <label for="nom">Votre nom :</label><input type="text" name="nom" id="nom" placeholder="Nom" />
+               <label for="prenom">Votre prenom :</label><input type="text" name="prenom" id="prenom" placeholder="Prenom"/>
                <br/>
-               <label for="sujet">Votre sujet :</label><input type="text" name="sujet" id="sujet" placeholder="Votre sujet"/>
+               <label for="sujet">Votre sujet :</label><input type="text" name="sujet" id="sujet" placeholder="Sujet"/>
                <br/>
-               <label for="message" id="label-message">Votre message :</label><textarea rows="10" cols="50" name="message" id="area-message" placeholder="Votre message"></textarea>
+               <label for="message" id="label-message">Votre message :</label><textarea rows="10" cols="50" name="message" id="area-message" class="zone-textarea"placeholder="Message"></textarea>
                <br/>
-               <input type="submit" value="Envoyer" id="bouton-envoyer" />
+               <input type="submit" value="Envoyer" id="bouton-envoyer" class="zone-bouton"/>
             </form>       
         </div>
 
-        <a href="#" title="Aller en haut de page" class="float-right"><i class="icon-up-circled"></i></a>
+        <a href="#" title="Aller en haut de page" class="float-right"><i class="icon-up-circled zone-fleche-haut"></i></a>
 
+        <!-- preFooter avec le plan de site et adresse de contact --> 
         <div class="preFooter">
             <table>
                <tr class="centre background">
@@ -72,6 +75,7 @@
         <a href="https://github.com/alicedu38" target='_blank' title="github" class="blanc"><i class="icon-github"></i></a>
     </footer>
 
+    <!-- javascript qui permet l'ouvertue et la fermeture du menu pour petit format --> 
     <script src="assets/lib/jquery-1.11.3.js"></script>
     <script type="text/javascript">
         $('.toggle-menu').click(function(){

@@ -4,7 +4,7 @@
 
 footer{	
   	background-color: #0f0f0f;
-  	color: #ffffff;
+  	color: $blanc;
   	text-align: center;	
   	padding : 5px;
 }
@@ -15,5 +15,4 @@ footer{
 
 a:hover{
 	color: $couleur-hover;
-
 }

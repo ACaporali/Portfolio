@@ -10,6 +10,7 @@
         <!-- endbuild -->
     </head>
     <body>   
+        <!-- Menu --> 
         <h1><a href="index.html" class="zone-clic-titre">Portfolio</a></h1>
 
         <a class="toggle-menu" title="menu"><i class="icon-menu"></i></a>
@@ -21,8 +22,10 @@
         </ul>
 
         <div class="corps"> 
-            <img alt="realisation-web" class="img-full" src="/images/realisation-web.png"/>   	                         
+            <img alt="realisation-web" class="img-full" src="/images/realisation-web.jpg"/>   	                         
             <h1>Mes réalisations</h1><br/>           
+            
+            <!-- ancres qui renvoient aux explications des projets --> 
             <ul>
                 <li class="padding-5px"><a href="#annuaire-web" title="Lien vers : Développement d’un annuaire web et d’une solution de localisation">Développement d’un annuaire web et d’une solution de localisation</a></li>
                 <li class="padding-5px"><a href="#interface-graphique" title="Lien vers : Développement d’une interface graphique client en C#">Développement d’une interface graphique client en C#</a></li>
@@ -140,8 +143,9 @@
             <span>Pour toutes questions sur mes projets </span><a href="contact.html" title="Contact">contactez moi</a>
         </div>
 
-        <a href="#" title="Aller en haut de page" class="float-right"><i class="icon-up-circled"></i></a>
+        <a href="#" title="Aller en haut de page" class="float-right"><i class="icon-up-circled zone-fleche-haut"></i></a>
 
+        <!-- preFooter avec le plan de site et adresse de contact --> 
         <div class="preFooter">
             <table>
                <tr class="centre background">
@@ -172,6 +176,7 @@
         <a href="https://github.com/alicedu38" target='_blank' title="github" class="blanc"><i class="icon-github"></i></a>
     </footer>
 
+   <!-- javascript qui permet l'ouvertue et la fermeture du menu pour petit format --> 
     <script src="assets/lib/jquery-1.11.3.js"></script>
     <script type="text/javascript">
         $('.toggle-menu').click(function(){
