@@ -6,14 +6,14 @@
         <!-- build:css css/css-combined.css -->
         <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title">      
         <link rel="stylesheet" href="assets/fontello/css/fontello.css" media="screen" title="no title">
-        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <!-- endbuild -->
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>       
     </head>
     <body> 
         <!-- Menu -->  
-        <h1><a href="index.html" class="zone-clic-titre">Portfolio</a></h1>
+        <h1><a href="index.html" class="zone-titre">Portfolio</a></h1>
 
-        <a class="toggle-menu" title="menu"><i class="icon-menu"></i></a>
+        <a class="toggle-menu zone-menu" title="menu"><i class="icon-menu"></i></a>
     	<ul class="menu"> 
             <li><a href="index.html" title="Accueil"><i class="icon-home"></i>Accueil</a></li>
             <li><a href="realisations.html" title="Réalisations"><i class="icon-mouse"></i>Réalisations</a></li>
@@ -23,13 +23,13 @@
 
 
         <div class="corps">
-            <img alt="developpement-web" class="img-full" src="/images/developpement-web.png"/>    	                         
+            <img alt="developpement-web" class="img-full" src="images/developpement-web.png"/>    	                         
             <h1 class="centre">Caporali Alice</h1> 
             <p class="centre">Developpeuse web et mobile</p>
             <p class="centre"><a href="a-propos.html" class="centre"><i class="icon-right-small"></i>En savoir plus<i class="icon-left-small"></i></a></p>          
         </div>
 
-        <a href="#" title="Aller en haut de page" class="float-right"><i class="icon-up-circled zone-fleche-haut"></i></a>   
+        <a href="#" title="Aller en haut de page" class="float-right zone-fleche-haut"><i class="icon-up-circled"></i></a>   
 
         <!-- preFooter avec le plan de site et adresse de contact --> 
         <div class="preFooter">
@@ -68,7 +68,5 @@
     	$('.toggle-menu').click(function(){
     		$('.menu').toggleClass("menu-open");
     	})
-
-
     </script>
 </html>

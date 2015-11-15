@@ -1,0 +1,4 @@
+1. Téléchargez le fichier et d'écompressé le
+2. Placez le fichier www sur un serveur web (exemple: WampServeur (gratuit))
+3. Ouvrez le fichier www via votre serveur
+

@@ -6,14 +6,14 @@
         <!-- build:css css/css-combined.css -->
         <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title">      
         <link rel="stylesheet" href="assets/fontello/css/fontello.css" media="screen" title="no title">
-        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <!-- endbuild -->
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     </head>
     <body>  
         <!-- Menu -->  
-        <h1><a href="index.html" class="zone-clic-titre">Portfolio</a></h1>
+        <h1><a href="index.html" class="zone-titre">Portfolio</a></h1>
 
-        <a class="toggle-menu" title="menu"><i class="icon-menu"></i></a>
+        <a class="toggle-menu zone-menu" title="menu"><i class="icon-menu"></i></a>
         <ul class="menu"> 
             <li><a href="index.html" title="Accueil"><i class="icon-home"></i>Accueil</a></li>
             <li><a href="realisations.html" title="Réalisations"><i class="icon-mouse"></i>Réalisations</a></li>
@@ -21,7 +21,8 @@
             <li><a href="contact.html" title="Contact"><i class="icon-mail-alt"></i>Contact</a></li>
         </ul>
 
-        <div class="corps">    	                         
+        <div class="corps">
+            <img alt="developpement-web" class="img-full" src="images/caporali-alice.png"/>   	                         
             <h1>Mon profil</h1><br/>
 
             <p>Je m'appelle <strong>Caporali Alice</strong>, je suis actuellement en <strong>alternance dans la licence professionnelle SMIN </strong>(Services Mobiles et Interface Nomade) à l'IUT 1 de Grenoble. Avant de faire cette formation, j'ai fais un BAC STG qui m'a permis de m'initier au domaine de la communication. Puis, j'ai obtenu un BTS SIO où j'ai appris les bases de la programmation (web, logiciel et mobile).<br/>
@@ -58,7 +59,7 @@
             <span>N'hésitez pas à consulter les projets que j'ai réalisés sur la page </span><a href="realisations.html" title="Réalisations">mes réalisations</a>
         </div>
 
-        <a href="#" title="Aller en haut de page" class="float-right"><i class="icon-up-circled zone-fleche-haut"></i></a>
+        <a href="#" title="Aller en haut de page" class="float-right zone-fleche-haut"><i class="icon-up-circled"></i></a> 
         <!-- preFooter avec le plan de site et adresse de contact --> 
         <div class="preFooter">
             <table>
@@ -96,7 +97,5 @@
         $('.toggle-menu').click(function(){
             $('.menu').toggleClass("menu-open");
         })
-
-
     </script>
 </html>

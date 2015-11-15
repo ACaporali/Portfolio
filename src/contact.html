@@ -6,14 +6,14 @@
         <!-- build:css css/css-combined.css -->
         <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title">      
         <link rel="stylesheet" href="assets/fontello/css/fontello.css" media="screen" title="no title">
-        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <!-- endbuild -->
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     </head>
     <body>   
         <!-- Menu --> 
-        <h1><a href="index.html" class="zone-clic-titre">Portfolio</a></h1>
+        <h1><a href="index.html" class="zone-titre">Portfolio</a></h1>
 
-        <a class="toggle-menu" title="menu"><i class="icon-menu"></i></a>
+        <a class="toggle-menu zone-menu" title="menu"><i class="icon-menu"></i></a>
         <ul class="menu"> 
             <li><a href="index.html" title="Accueil"><i class="icon-home"></i>Accueil</a></li>
             <li><a href="realisations.html" title="Réalisations"><i class="icon-mouse"></i>Réalisations</a></li>
@@ -23,7 +23,7 @@
 
 
         <div class="corps">
-            <img alt="contact" class="img-full" src="/images/contact.jpg"/>    	                         
+            <img alt="contact" class="img-full" src="images/contact.jpg"/>    	                         
             <h1>Me contacter</h1><br/>
 
             <p>Vous pouvez m'envoyer un <strong>mail</strong> à l'adresse suivante : <strong>alice.caporali@hotmail.fr</strong></p>
@@ -42,7 +42,7 @@
             </form>       
         </div>
 
-        <a href="#" title="Aller en haut de page" class="float-right"><i class="icon-up-circled zone-fleche-haut"></i></a>
+        <a href="#" title="Aller en haut de page" class="float-right zone-fleche-haut"><i class="icon-up-circled"></i></a> 
 
         <!-- preFooter avec le plan de site et adresse de contact --> 
         <div class="preFooter">
@@ -78,10 +78,8 @@
     <!-- javascript qui permet l'ouvertue et la fermeture du menu pour petit format --> 
     <script src="assets/lib/jquery-1.11.3.js"></script>
     <script type="text/javascript">
-        $('.toggle-menu').click(function(){
-            $('.menu').toggleClass("menu-open");
-        })
-
-
+      $('.toggle-menu').click(function(){
+        $('.menu').toggleClass("menu-open");
+      })
     </script>
 </html>

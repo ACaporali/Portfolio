@@ -197,9 +197,12 @@ form {
   table li {
     padding: 5px;
     font-size: 18px; }
-  .zone-clic-titre {
+  .zone-titre {
     display: block;
     line-height: 100px; }
+  .zone-menu {
+    display: block;
+    line-height: 50px; }
   .zone-fleche-haut {
     display: block;
     line-height: 100px; }
