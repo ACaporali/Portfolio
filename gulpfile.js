@@ -14,7 +14,7 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("./src/*.html").on('change', browserSync.reload);
 });
 
-// creation d'une nouvelle tache : 'sass' 
+// creation d'une nouvelle tache : 'sass' qui convertie les fichier scss en css
 gulp.task('sass', function () {
   // convertit un fichier .scss en .css
   return gulp.src('src/assets/scss/**/*.scss') // définition du répertoire source
@@ -33,6 +33,7 @@ gulp.task('default', function() {
   // place code for your default task here
 });
 
+// fonction qui met dans le répertoire 'www' les fichier .html situé dans 'src'
 gulp.task('useref', function () {
     var assets = useref.assets();
  
